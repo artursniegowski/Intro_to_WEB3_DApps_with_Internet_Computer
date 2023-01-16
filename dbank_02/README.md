@@ -1,5 +1,5 @@
 # dbank_02
-This is a banking app where the user starts with a deposit of $300  and can perform transactions by adding and taking out money. Each time the user performs a transaction, the sum will be added together by the time between transactions; this is implemented on the backend side with Motoko to show the functionality of additional transactions.
+This is a banking app where the user starts with a deposit of $300 and can perform transactions by adding and taking out money. Each time the user performs a transaction, the sum will be adjusted together with a compound function that is dependent on the time between transactions; this is implemented on the backend side with Motoko to show how to add additional functionality and better understand the interaction between the frontend and backend with the development of DApps with Intern Computer.
 
 
 
