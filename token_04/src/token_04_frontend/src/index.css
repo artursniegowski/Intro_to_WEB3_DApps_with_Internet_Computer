@@ -1,0 +1,16 @@
+:root {
+  --background-color-all: #256D85;
+  --backgroud-color-dark: #06283D;
+  --backgroud-color-ligth: #47B5FF;
+  --text-color-ligth: #DFF6FF;
+}
+html {
+  background: var(--background-color-all);
+  font-family: System, monospace;
+  font-size: 10pt;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
