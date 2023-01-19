@@ -18,7 +18,7 @@ To learn more before you start working with token_04, see the following document
 If you want to start working on your project right away, you might want to try the following commands:
 
 ```bash
-cd token_04/
+cd token_04/ 
 dfx help
 dfx canister --help
 ```
