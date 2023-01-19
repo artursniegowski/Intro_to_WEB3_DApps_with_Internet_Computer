@@ -1,4 +1,24 @@
 # token_04
+
+Copyright 2023
+
+The code in this tutorial project is licended under the Apache License, Version 2.0 (the "License");
+you may not use this project except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+Here is the TL;DR version of the above licence:
+https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)
+
+
+
 This web app represents an example of creating your own token and how to implement it on a blockchain with the Iternet Computer. The token name is Arturion, and it will have the basic functionality of receiving and transferring tokens. The supply of tokens is hardcoded at 1 billion, and all of it will be transferred to the owner at the start of the canister. Before we start using the program, we need to specify the principal id of the owner in the main.mo file! Next, we want to use the canister to transfer money / payouts to the authenticated users (faucet functionality), so after the canister is running, we have to transfer tokens (from the owner account) to it from the command line (as described in the section "Charge the Canister"). Every user who visits the website will have the option of getting authenticated with their Internet identity by DFINITY (https://www.youtube.com/watch?v=oxEr8UzGeBo&ab_channel=DFINITY). After creating an anchor and being authorized, the user will be allowed to collect 10,000 tokens by pressing the Gime Gime button (only once). Each user's information and balance will be stored on the ledger. These tokens will be transferred from the main canister. This website will also give the option of transferring the tokens to a different account, but we have to specify the principal ID of the account to transfer. This web app is a great example of how to build decentralized apps with Internet Comuter, utilizing the Motoko programming language on the back end and React.js on the front end, and authenticating users with Internet Identity.   
 
 
