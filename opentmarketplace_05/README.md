@@ -18,7 +18,7 @@ Here is the TL;DR version of the above licence:
 https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)
 
 
----
+--- 
 
 
 This project will imitate most of the functionality of the OpenSea website, where users can mint, list, and sell NFTs (non-fungible tokens) on ICP.
