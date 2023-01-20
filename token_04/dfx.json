@@ -1,0 +1,28 @@
+{
+  "canisters": {
+    "token_04_backend": {
+      "main": "src/token_04_backend/main.mo",
+      "type": "motoko"
+    },
+    "token_04_frontend": {
+      "dependencies": [
+        "token_04_backend"
+      ],
+      "frontend": {
+        "entrypoint": "src/token_04_frontend/src/index.html"
+      },
+      "source": [
+        "src/token_04_frontend/assets",
+        "dist/token_04_frontend/"
+      ],
+      "type": "assets"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "version": 1
+}
