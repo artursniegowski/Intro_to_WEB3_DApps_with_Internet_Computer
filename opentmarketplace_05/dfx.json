@@ -1,0 +1,32 @@
+{
+  "canisters": {
+    "opentmarketplace_05_backend": {
+      "main": "src/opentmarketplace_05_backend/main.mo",
+      "type": "motoko"
+    },
+    "nft": {
+      "main": "src/NFT/nft.mo",
+      "type": "motoko"
+    },
+    "opentmarketplace_05_frontend": {
+      "dependencies": [
+        "opentmarketplace_05_backend"
+      ],
+      "frontend": {
+        "entrypoint": "src/opentmarketplace_05_frontend/src/index.html"
+      },
+      "source": [
+        "src/opentmarketplace_05_frontend/assets",
+        "dist/opentmarketplace_05_frontend/"
+      ],
+      "type": "assets"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "version": 1
+}

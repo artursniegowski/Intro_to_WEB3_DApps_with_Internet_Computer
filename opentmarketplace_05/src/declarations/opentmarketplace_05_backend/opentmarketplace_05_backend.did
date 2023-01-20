@@ -1,0 +1,11 @@
+service : {
+  getCanisterId: () -> (principal) query;
+  getListedNFTs: () -> (vec principal) query;
+  getListedNftPrice: (principal) -> (nat) query;
+  getOriginalOwner: (principal) -> (principal) query;
+  getOwnedNFTs: (principal) -> (vec principal) query;
+  isListedForSale: (principal) -> (bool) query;
+  listItems: (principal, nat) -> (text);
+  mint: (vec nat8, text) -> (principal);
+  transferOwnershipNFT: (principal, principal, principal) -> (text);
+}
